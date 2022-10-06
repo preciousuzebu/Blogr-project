@@ -16,7 +16,7 @@
     border-radius: 0 0 0 80px;
 }
 
-  .modern{
+.modern {
     font-size: 2rem;
     line-height: 40px;
     display: flex;
@@ -44,6 +44,7 @@ p{
     border: 2px solid white;
     border-radius: 30px;
     color: red;
+    background-color: white;
     padding: 10px 20px;
 }
 
