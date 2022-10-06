@@ -16,43 +16,8 @@
     border-radius: 0 0 0 80px;
 }
 
-#sidebar{
-    position: absolute;
-    width: 30%;
-    height: 40%;
-    background-color: black;
-    right: -30%;
-}
-
-#sidebar li{
-    color: white;
-    font-size:20px ;
-    padding: 15px;
-    border-bottom: 1px solid gray;
-    text-align: center;
-    list-style: none;
-}
-
-.toggle-btn{
-    position: absolute;
-    right: 100%;
-    top: 10px;
-}
-
-.toggle-btn span{
-    display: block;
-    background-color: white;
-    width: 30px;
-    height: 3px;
-    margin: 5px;
-}
-
-#sidebar.active{
-    right: 0;
-}
-
   .modern{
-    font-size: 2.3rem;
+    font-size: 2rem;
     line-height: 40px;
     display: flex;
     flex-direction: column;
@@ -64,7 +29,7 @@ p{
     text-align: center;
     line-height: 20px;
     padding-bottom: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .btns{
@@ -114,14 +79,14 @@ p{
 
 .content-heading, .Robust-heading, .free-heading, .powerful-heading{
     color: hsl(228, 45%, 44%);
-    font-size: 2rem;
+    font-size: 1.6rem;
     line-height: 35px;
     padding-bottom: 20px;
 }
 
 .content, .Robust-content, .state-content, .free-content, .powerful-content{
     line-height: 40px;
-    font-size: 1.6rem;
+    font-size: 1.2rem;
 }
 
 .Robust{
@@ -136,26 +101,26 @@ p{
 }
 
 .mobile{
-    transform: translateY(-20%);
+    transform: translateY(-40%);
 }
 
 .bg-img{
     background-image: url("./images/bg-pattern-circles.svg");
     background-size: contain;
-    background-repeat: no-repeat;
-   
+    background-repeat: no-repeat;  
 }
 
 .state-heading{
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 35px;
     padding: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .state{
     text-align: center;
     color: white;
+    padding-bottom: 60px;
 }
 
 .laptop-image{
@@ -179,12 +144,12 @@ ul li{
 }
 
 ul .main{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 ul .main-1{
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 10px;
 }
